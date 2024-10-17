@@ -1,0 +1,91 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    font-size: 50px;
+}
+
+/* Class selector */
+.common {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    background-color:aliceblue;
+    border: solid 1px black;
+}
+
+.header {
+    top: 40px;
+    left: 5px;
+    height: 100px;
+    padding left: 20px;
+    right:5px;
+    z-index: 1;
+}
+
+.leftmenu {
+    top:155px; 
+    left:5px;
+    bottom: 50px;
+    width: 150px;
+    height: 1750px;
+    
+}
+
+.mainbody{
+    top: 155px;
+    left: 160px;
+    bottom: 50px;
+    right: 160px;
+    padding-left: 15px;
+    padding-top: 0px;
+    height: 1750px;
+}
+
+.rightmenu{
+    top:155px;
+    right:5px;
+    bottom: 50px;
+    width: 150px;
+    height: 1750px;
+}
+
+.footer{
+    bottom:5px;
+    right:5px;
+    left:5px;
+    height: 40px;
+    font-size: 15px;
+    text-align: center;
+    position:fixed;
+}
+
+a:hover {
+    font-style: bold;
+    font-size: 30px;
+
+}
+
+.subheader{
+    border:solid 1px aliceblue ;
+    float:right;
+    text-align: right;
+}
+
+.classtable{
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 90%;
+        border: 1px solid white;
+      }
+      
+      td, th {
+        border: 1px solid black;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color:#96D4D4; 
+      }
+}
